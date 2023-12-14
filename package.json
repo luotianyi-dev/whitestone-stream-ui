@@ -1,0 +1,33 @@
+{
+  "name": "@luotianyi-dev/whitestone-stream-ui",
+  "version": "2.2.1",
+  "description": "A palin pure-CSS UI library",
+  "main": "dist/whitestone-stream-ui.css",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luotianyi-dev/whitestone-stream-ui.git"
+  },
+  "keywords": [
+    "css"
+  ],
+  "author": "Tianyi Network",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/luotianyi-dev/whitestone-stream-ui/issues"
+  },
+  "homepage": "https://github.com/luotianyi-dev/whitestone-stream-ui#readme",
+  "jsdelivr": "./dist/whitestone-stream-ui.css",
+  "devDependencies": {
+    "minify": "^11.0.1",
+    "try-to-catch": "^3.0.1"
+  },
+  "files": [
+    "dist",
+    "src",
+    "README.md",
+    "LICENSE"
+  ]
+}
