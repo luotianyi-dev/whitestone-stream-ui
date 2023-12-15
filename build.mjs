@@ -1,4 +1,4 @@
-import { copyFileSync, readFileSync, writeFileSync } from 'fs';
+import { copyFileSync, existsSync, mkdirSync, readFileSync, writeFileSync } from 'fs';
 import { join } from 'path';
 import { minify } from 'minify';
 import { URL } from 'url';
@@ -13,6 +13,7 @@ const distfile = (file) => join(dist, file);
 const { version } = JSON.parse(readFileSync(join(base, 'package.json'), 'utf8'));
 console.log(`Building ${name} v${version}...`);
 
+existsSync(dist) || mkdirSync(dist);
 const copyright = readFileSync(srcfile('copyright.css'), 'utf8')
     .replace(/{year}/g, new Date().getFullYear())
     .replace(/{version}/g, `v${version}`);
