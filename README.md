@@ -9,7 +9,7 @@ Inspired by [simple.css](https://simplecss.org), WhiteStream Stream UI only prov
 You can install WhiteStream Stream UI via npm:
 
 ```bash
-npm install --save @whitestream/stream-ui
+npm install --save @luotianyi-dev/whitestone-stream-ui
 ```
 
 Or you can use the CDN:
