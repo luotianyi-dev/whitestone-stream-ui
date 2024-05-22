@@ -1,4 +1,4 @@
-# WhiteStream Stream UI
+# WhiteStone Stream UI
 
 ***A palin pure-CSS UI library***
 
